@@ -1,5 +1,7 @@
 # 1.0.0
 
+**MIT licensing update:** the original mod code and assets, including earlier uploads of this version, are now offered under MIT. The refreshed JAR includes the license text and updated metadata; compiled implementation and version number are unchanged.
+
 - Sealed orbs are now single-use in both survival and creative mode.
 - Consume the original orb before executing its command so rewards placed into the vacated slot are not overwritten or deleted.
 - Prevent vanilla creative-mode use from restoring the consumed orb.

@@ -15,8 +15,8 @@ FTB Quests 1.20.1 的完整物品 NBT 存取及副本奖励分发已核对官方
 执行命令：`gradlew.bat build runGameTestServer --offline`。
 
 - 构建与测试日志：`build/verification-1.1.0.log`（一次性实现的原开发编号日志），结果 `BUILD SUCCESSFUL`、`All 17 required tests passed :)`。
-- 发布文件：`build/libs/sealedwordorb-1.0.0.jar`，32336 字节。
-- SHA-256：`10819E0925770043E39ABCA0BA0D92B3177382A476D3C2099C8549B4A22B1691`。
+- 发布文件：`build/libs/sealedwordorb-1.0.0.jar`，33706 字节。
+- SHA-256：`1F3CCF4AD3C967624270D9A3FD79BD25667B6DCA5F52CFB61008E0085038CDDE`。
 
 | 测试 | 结果 |
 | --- | --- |
@@ -66,3 +66,7 @@ FTB Quests 1.20.1 的完整物品 NBT 存取及副本奖励分发已核对官方
 ## 发布编号修正
 
 一次性实现由原开发编号 1.1.0 修正为 1.0.0；原可重复使用实现由 1.0.0 修正为 0.1.0。行为没有在此次编号修正中变更。当前发布构建日志为 build/publishing/build-1.0.0.log。
+
+## MIT 许可更新
+
+0.1.0 和 1.0.0 的元数据及包内许可已改为 MIT。1.0.0 离线构建成功（build/publishing/build-mit.log）；两个版本的所有 .class 文件哈希均与更新前一致。本次未重新运行游戏测试，未改变游戏行为。

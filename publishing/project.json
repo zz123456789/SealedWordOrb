@@ -7,7 +7,8 @@
   "additional_categories": [],
   "client_side": "required",
   "server_side": "required",
-  "license_id": "LicenseRef-All-Rights-Reserved",
+  "license_id": "MIT",
+  "license_url": "https://github.com/zz123456789/SealedWordOrb/blob/main/LICENSE.md",
   "is_draft": true,
   "initial_versions": []
 }

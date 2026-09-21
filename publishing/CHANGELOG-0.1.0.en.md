@@ -1,5 +1,7 @@
 # 0.1.0 — Historical release
 
+**MIT licensing update:** the original mod code and assets, including earlier uploads of this version, are now offered under MIT. The refreshed JAR includes the license text and updated metadata; compiled implementation and version number are unchanged.
+
 - Add the Sealed Word Orb creative item and the command editor.
 - Store a command, permission level, optional description and Modified marker in item NBT.
 - Require creative mode and operator permission to configure blank orbs.

@@ -34,6 +34,7 @@ if (Test-Path -LiteralPath $statePath) {
 $update = @{
     title = $metadata.title; description = $metadata.description; body = $metadata.body
     categories = $metadata.categories; client_side = 'required'; server_side = 'required'
+    license_id = $metadata.license_id; license_url = $metadata.license_url
 }
 Invoke-RestMethod "$api/project/$($project.id)" -Method Patch -Headers $headers `
     -ContentType 'application/json; charset=utf-8' -Body ($update | ConvertTo-Json -Depth 8 -Compress) | Out-Null

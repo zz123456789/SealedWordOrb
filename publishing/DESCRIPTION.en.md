@@ -49,6 +49,12 @@ This mod intentionally uses **unsigned, portable NBT**. The normal editor is res
 
 Other mods or server permission systems may impose additional checks beyond vanilla command levels.
 
+## License
+
+Sealed Word Orb's original code, assets, and documentation are available under the **MIT License**, including the previously released 0.1.0 and 1.0.0 versions. You may use, modify, and redistribute them, including in modpacks, under the MIT terms. Third-party components retain their own licenses.
+
+[Source code](https://github.com/zz123456789/SealedWordOrb) · [MIT license](https://github.com/zz123456789/SealedWordOrb/blob/main/LICENSE.md) · [Historical-release clarification](https://github.com/zz123456789/SealedWordOrb/blob/main/LICENSING.md)
+
 ## Version history
 
 - **1.0.0 — Current release:** single-use sealed orbs, including creative-mode consumption; preserves command-generated replacement items. Existing NBT remains compatible.
