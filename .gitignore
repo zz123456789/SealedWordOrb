@@ -1,0 +1,43 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# Local runtime, packaged downloads and generated artifacts
+/run-data/
+/logs/
+/forge-*-mdk.zip
+/README.txt
+/changelog.txt
+/CREDITS.txt
+/LICENSE.txt
+
+# Credentials and per-machine publication state
+.env
+.env.*
+credentials*.json
+*.pem
+*.key
+/publishing/*-state.json
+/publishing/CURSEFORGE-PROJECT.md

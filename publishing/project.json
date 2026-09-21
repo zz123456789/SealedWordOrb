@@ -1,0 +1,13 @@
+{
+  "slug": "sealed-word-orb",
+  "title": "Sealed Word Orb",
+  "description": "Seal commands into single-use items for adventure maps, server events, and quest rewards. Configurable permissions and portable NBT.",
+  "project_type": "mod",
+  "categories": ["utility", "game-mechanics"],
+  "additional_categories": [],
+  "client_side": "required",
+  "server_side": "required",
+  "license_id": "LicenseRef-All-Rights-Reserved",
+  "is_draft": true,
+  "initial_versions": []
+}

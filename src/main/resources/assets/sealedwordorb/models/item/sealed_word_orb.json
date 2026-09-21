@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sealedwordorb:item/sealed_word_orb"
+  }
+}
